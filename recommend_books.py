@@ -14,15 +14,15 @@ def recommend_books(book_title, model, books_df):
 
 def main():
     st.title("Book Recommendation System")
-    pic='pic2.jpg'
-    st.image(pic)
+    #pic='pic2.jpg'
+    #st.image(pic)
 
     st.info('Welcome to the site, Hope you find what you are looking for')
     st.markdown('#') #to create empty space
 
     st.sidebar.title('INFO')
-    pic2='capture.jpg'
-    st.sidebar.image(pic2)
+    #pic2='capture.jpg'
+    #st.sidebar.image(pic2)
     st.sidebar.text_area('This project is done by \nManik gupta and Yashu Varshney \nas part of virtual internship \nprogram offered by iNeuron.ai') 
 
     # Load the cosine similarity model
