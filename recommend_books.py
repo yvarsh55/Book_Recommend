@@ -2,7 +2,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-from sklearn.metrics.pairwise import cosine_similarity
 import pickle
 
 def recommend_books(book_title, model, books_df):
