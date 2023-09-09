@@ -24,6 +24,7 @@ def main():
     #pic2='capture.jpg'
     #st.sidebar.image(pic2)
     st.sidebar.text_area('This project is done by \nManik gupta and Yashu Varshney \nas part of virtual internship \nprogram offered by iNeuron.ai') 
+    st.sidebar.button('Submit')
 
     # Load the cosine similarity model
     model = pickle.load(open("cosine_similarity_model.pkl", "rb"))
